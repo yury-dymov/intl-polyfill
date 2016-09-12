@@ -33,13 +33,13 @@
       "y": "y",
       "yM": "MM.y",
       "yMd": "dd.MM.y",
-      "yMEd": "ccc, d.MM.y г.",
+      "yMEd": "ccc, d.MM.y 'г'.",
       "yMM": "MM.y",
-      "yMMM": "LLL y г.",
-      "yMMMd": "d MMM y г.",
-      "yMMMEd": "E, d MMM y г.",
-      "yMMMM": "LLLL y г.",
-      "yMMMMdd": "dd MMMM y г."
+      "yMMM": "LLL y 'г'.",
+      "yMMMd": "d MMM y 'г'.",
+      "yMMMEd": "E, d MMM y 'г'.",
+      "yMMMM": "LLLL y 'г'.",
+      "yMMMMdd": "dd MMMM y 'г'."
     }
   },
   "months": {
@@ -51,7 +51,7 @@
       "мая",
       "июн.",
       "июл.",
-      "авг.",
+      "ав'г'.",
       "сент.",
       "окт.",
       "нояб.",

@@ -220,7 +220,7 @@ function formattedDateTime(date, pattern, localeData) {
     ret.push(getPart(format.substring(cursor, format.length), date, localeData));
   }
 
-  return ret.join('');
+  return ret.join('').replace(/'/g, '');
 }
 
 export function getFormatDateTime() {
