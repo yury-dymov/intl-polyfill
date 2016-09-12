@@ -1,0 +1,40 @@
+{
+  "name": "intl-polyfill",
+  "version": "0.0.1",
+  "description": "intl-polyfill for safari and older browsers",
+  "main": "dist/intl-polyfill.js",
+  "scripts": {
+    "build:dist": "NODE_ENV='production' node node_modules/webpack/bin/webpack -p",
+    "build:data": "node node_modules/babel-cli/bin/babel scripts/build-locale-data.js | node",
+    "build": "npm run build:dist && npm run build:data",
+    "lint": "node node_modules/eslint/bin/eslint scripts rc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yury-dymov/intl-polyfill.git"
+  },
+  "keywords": [
+    "intl",
+    "polyfill"
+  ],
+  "author": "Yuri Dymov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yury-dymov/intl-polyfill/issues"
+  },
+  "homepage": "https://github.com/yury-dymov/intl-polyfill#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0",
+    "webpack": "^1.13.2"
+  }
+}

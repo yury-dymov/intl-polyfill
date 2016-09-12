@@ -1,0 +1,93 @@
+{
+  "locale": "en",
+  "date": {
+    "hour12": true,
+    "formats": {
+      "d": "d",
+      "E": "ccc",
+      "Ed": "d E",
+      "Ehm": "E h:mm a",
+      "EHm": "E HH:mm",
+      "Ehms": "E h:mm:ss a",
+      "EHms": "E HH:mm:ss",
+      "h": "h a",
+      "H": "HH",
+      "hm": "h:mm a",
+      "Hm": "HH:mm",
+      "hms": "h:mm:ss a",
+      "Hms": "HH:mm:ss",
+      "M": "L",
+      "Md": "M/d",
+      "MEd": "E, M/d",
+      "MMM": "LLL",
+      "MMMd": "MMM d",
+      "MMMEd": "E, MMM d",
+      "MMMMd": "MMMM d",
+      "MMMMdd": "MMMM dd",
+      "ms": "mm:ss",
+      "y": "y",
+      "yM": "M/y",
+      "yMd": "M/d/y",
+      "yMEd": "E, M/d/y",
+      "yMMM": "MMM y",
+      "yMMMd": "MMM d, y",
+      "yMMMEd": "E, MMM d, y",
+      "yMMMM": "MMMM y",
+      "yMMMMdd": "MMMM dd, y"
+    }
+  },
+  "months": {
+    "short": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "long": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  "days": {
+    "short": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "long": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ]
+  },
+  "dayPeriods": {
+    "am": "AM",
+    "pm": "PM"
+  }
+}

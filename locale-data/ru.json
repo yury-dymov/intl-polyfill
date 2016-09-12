@@ -1,0 +1,99 @@
+{
+  "locale": "ru",
+  "date": {
+    "hour12": false,
+    "formats": {
+      "d": "d",
+      "E": "ccc",
+      "Ed": "ccc, d",
+      "Ehm": "E h:mm a",
+      "EHm": "E HH:mm",
+      "Ehms": "E h:mm:ss a",
+      "EHms": "E HH:mm:ss",
+      "h": "h a",
+      "H": "H",
+      "hm": "H:mm",
+      "Hm": "H:mm",
+      "hms": "H:mm:ss",
+      "Hms": "H:mm:ss",
+      "hmsv": "h:mm:ss a v",
+      "Hmsv": "H:mm:ss v",
+      "hmv": "h:mm a v",
+      "Hmv": "H:mm v",
+      "M": "L",
+      "Md": "dd.MM",
+      "MEd": "E, dd.MM",
+      "MMdd": "dd.MM",
+      "MMM": "LLL",
+      "MMMd": "d MMM",
+      "MMMEd": "ccc, d MMM",
+      "MMMMd": "d MMMM",
+      "MMMMdd": "dd MMMM",
+      "ms": "mm:ss",
+      "y": "y",
+      "yM": "MM.y",
+      "yMd": "dd.MM.y",
+      "yMEd": "ccc, d.MM.y г.",
+      "yMM": "MM.y",
+      "yMMM": "LLL y г.",
+      "yMMMd": "d MMM y г.",
+      "yMMMEd": "E, d MMM y г.",
+      "yMMMM": "LLLL y г.",
+      "yMMMMdd": "dd MMMM y г."
+    }
+  },
+  "months": {
+    "short": [
+      "янв.",
+      "февр.",
+      "мар.",
+      "апр.",
+      "мая",
+      "июн.",
+      "июл.",
+      "авг.",
+      "сент.",
+      "окт.",
+      "нояб.",
+      "дек."
+    ],
+    "long": [
+      "января",
+      "февраля",
+      "марта",
+      "апреля",
+      "мая",
+      "июня",
+      "июля",
+      "августа",
+      "сентября",
+      "октября",
+      "ноября",
+      "декабря"
+    ]
+  },
+  "days": {
+    "short": [
+      "вс",
+      "пн",
+      "вт",
+      "ср",
+      "чт",
+      "пт",
+      "сб"
+    ],
+    "long": [
+      "воскресенье",
+      "понедельник",
+      "вторник",
+      "среда",
+      "четверг",
+      "пятница",
+      "суббота"
+    ]
+  },
+  "dayPeriods": {
+    "am": "",
+    "pm": ""
+  }
+}

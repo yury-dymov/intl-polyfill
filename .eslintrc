@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "import/prefer-default-export": [0],
+    "key-spacing": [0],
+    "max-len": [2, 128, 4, {
+      "ignoreComments": false,
+      "ignorePattern": "^\\s*(const|let|var)\\s+\\w+\\s+\\=\\s+\\/.*\\/(|i|g|m|ig|im|gm|igm);?$",
+      "ignoreUrls": true
+    }],
+    "no-console": ["error", { allow: ["error"] }],
+    "no-multi-spaces": [0],
+    "no-plusplus": [0]
+  },
+  "globals": {
+    "window":     true
+  }
+}
